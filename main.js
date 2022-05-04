@@ -24,7 +24,7 @@ function uploadrover() {
 
 function my_keydown(e)
 {
-    keyPressed = e,keyCode;
+    keyPressed = e.keyCode;
     console.log(keyPressed);
     if(keyPressed == '38')
     {
