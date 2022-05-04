@@ -21,7 +21,7 @@ function uploadBackground() {
 function uploadrover() {
     ctx.drawImage(rover_imgTag,rover_x,rover_y,rover_width,rover_height);
 }
-
+window.addEventListener("keydown", my_keydown);
 function my_keydown(e)
 {
     keyPressed = e.keyCode;
